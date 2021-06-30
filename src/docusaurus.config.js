@@ -6,11 +6,11 @@ module.exports = {
   title: 'GeoWiki',
   tagline: 'The global land use crowdsourcing tool',
   url: 'https://iiasa.github.io/geo-wiki-docs/',
-  baseUrl: '/',
+  baseUrl: '/geo-wiki-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  trailingSlash: false,
+  trailingSlash: true,
   organizationName: 'iiasa', // Usually your GitHub org/user name.
   projectName: 'geo-wiki-docs', // Usually your repo name.
   themeConfig: {
@@ -78,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} IIASA, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
