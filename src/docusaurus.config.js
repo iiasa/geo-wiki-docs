@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'GeoWiki',
   tagline: 'The global land use crowdsourcing tool',
-  url: 'https://iiasa.github.io/geo-wiki-docs/',
+  url: 'https://docs.geo-wiki.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,7 +18,7 @@ module.exports = {
       title: 'GeoWiki',
       logo: {
         alt: 'GeoWiki Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -29,7 +29,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/iiasa/geo-wiki-docs',
           label: 'GitHub',
           position: 'right',
         },
