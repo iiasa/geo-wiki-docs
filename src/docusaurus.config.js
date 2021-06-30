@@ -51,12 +51,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/GeoWiki',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/7Y7MZv9Ssm',
             },
             {
               label: 'Twitter',
@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/iiasa/geo-wiki-docs',
             },
           ],
         },
