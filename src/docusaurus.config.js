@@ -6,7 +6,7 @@ module.exports = {
   title: 'GeoWiki',
   tagline: 'The global land use crowdsourcing tool',
   url: 'https://iiasa.github.io/geo-wiki-docs/',
-  baseUrl: '/geo-wiki-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
